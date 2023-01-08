@@ -10,6 +10,7 @@ import {
   Button,
 } from "react-bootstrap";
 import { FaShoppingCart } from "react-icons/fa";
+import { SiSkyliner } from "react-icons/si";
 import { Link } from "react-router-dom";
 import { CartState } from "../context/Context";
 import { AiFillDelete } from "react-icons/ai";
@@ -26,7 +27,8 @@ const TopBar = () => {
     <Navbar className="header" bg="dark" variant="dark" style={{ height: 80 }}>
       <Container>
         <Navbar.Brand>
-          <Link to="/">Sky's</Link>
+          <SiSkyliner fontSize="25px" />
+          <Link to="/"> Sky's</Link>
         </Navbar.Brand>
         <Navbar.Text className="search">
           <FormControl
