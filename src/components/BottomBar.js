@@ -4,7 +4,7 @@ import { Card } from "react-bootstrap";
 const BottomBar = () => {
   return (
     <Card style={{ textAlign: "center" }}>
-      <a href="https://ietenotes.wapka.site/" target="_blank">
+      <a href="https://ietenotes.wapka.site/" target="_blank" rel="noreferrer">
         On clicking here You'll enter a website based out of HTML & CSS
       </a>
     </Card>
