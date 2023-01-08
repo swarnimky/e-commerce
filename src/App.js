@@ -4,6 +4,7 @@ import "./App.css";
 import TopBar from "./components/TopBar";
 import Home from "./components/Home";
 import Cart from "./components/Cart";
+import BottomBar from "./components/BottomBar";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <Cart />
         </Route>
       </div>
+      <BottomBar />
     </BrowserRouter>
   );
 }
