@@ -48,7 +48,7 @@ const Filters = () => {
       <span>
         <Form.Check
           inline
-          label="Include Out of Stock"
+          label="Include Out Of Stock"
           name="group1"
           type="checkbox"
           id={`inline-3`}
@@ -76,7 +76,7 @@ const Filters = () => {
         />
       </span>
       <span>
-        <label style={{ paddingRight: 10 }}>Rating: </label>
+        <label style={{ paddingRight: 10 }}>Rating : </label>
         <Rating
           rating={byRating}
           onClick={(i) =>
