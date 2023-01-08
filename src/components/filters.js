@@ -12,7 +12,7 @@ const Filters = () => {
   console.log(byStock, byFastDelivery, sort, byRating);
   return (
     <div className="filters">
-      <span className="title">Filter Products</span>
+      <span className="title">Filter Your Products</span>
       <span>
         <Form.Check
           inline
