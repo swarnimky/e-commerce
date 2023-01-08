@@ -26,7 +26,7 @@ const TopBar = () => {
     <Navbar className="header" bg="dark" variant="dark" style={{ height: 80 }}>
       <Container>
         <Navbar.Brand>
-          <Link to="/">Sky's Cart</Link>
+          <Link to="/">Sky's</Link>
         </Navbar.Brand>
         <Navbar.Text className="search">
           <FormControl
