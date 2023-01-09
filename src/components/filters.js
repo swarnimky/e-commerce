@@ -1,6 +1,7 @@
 import { Button, Form } from "react-bootstrap";
 import Rating from "./Rating";
 import { CartState } from "../context/Context";
+import { Link } from "react-router-dom";
 // import { CartState } from "../context/Context";
 // import Rating from "./Rating";
 
@@ -9,7 +10,7 @@ const Filters = () => {
     productState: { byStock, byFastDelivery, sort, byRating },
     productDispatch,
   } = CartState();
-  console.log(byStock, byFastDelivery, sort, byRating);
+
   return (
     <div className="filters">
       <span className="title">Filter Your Products</span>
@@ -97,6 +98,9 @@ const Filters = () => {
         }
       >
         Clear Filters
+      </Button>
+      <Button style={{ margin: "10px 0px" }} variant="info">
+        <Link to="/cart">Go To Cart</Link>
       </Button>
     </div>
   );
